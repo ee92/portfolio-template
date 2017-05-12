@@ -5,11 +5,34 @@ body {
 nav, footer {
 	background-color: rgba(90, 124, 121, 0.16);
 }
+hr {
+	margin: 0px 70px 0px 70px;
+	border: none;
+	height: 1px;
+	color: black;
+	background-color: black
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 #name {
 	margin: 25px;
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 15px;
+	letter-spacing: 8px;
 }
 
 .center {
@@ -55,5 +78,6 @@ nav, footer {
 @media(max-width: 767px){
 	#about img {
 		margin: 0 auto;
+		margin-bottom: 10px;
 	}
 }
