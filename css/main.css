@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#name {
+	margin: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.link , .link:hover , .link:active , .link:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#about {
+	margin-top: 100px;
+}
+
+#work {
+	margin-top: 100px;
+}
+
+#contact {
+	margin-top: 100px;
+}
+
+.background {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
