@@ -1,0 +1,26 @@
+body {
+	background-image: url('../img/space-1.jpg');
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+select {
+	color: black;
+}
+#sign {
+	display: inline;
+}
+#horoscope {
+	background-color: rgba(0,0,0,.7);
+	margin: 0px 50px 0px 50px;
+	border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+	body {
+		max-width: 495px;
+	}
+	select {
+	background-color: #c9c9c9;
+	}
+}

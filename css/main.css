@@ -2,10 +2,14 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+nav, footer {
+	background-color: rgba(90, 124, 121, 0.16);
+}
 
 #name {
 	margin: 25px;
 	font-family: 'Roboto', sans-serif;
+	letter-spacing: 15px;
 }
 
 .center {
@@ -17,22 +21,39 @@ body {
 	color: black;
 }
 
-#about {
-	margin-top: 100px;
-}
-
-#work {
-	margin-top: 100px;
-}
-
-#contact {
-	margin-top: 100px;
-}
-
 .background {
   position: fixed;
   display: block;
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+#about img {
+	height: 220px;
+	width: 250px;
+}
+
+#work img {
+	height: 50px;
+	margin-bottom: -5px;
+	border-radius: 5px;
+}
+
+.space {
+	margin: 45px 0px 55px 0px;
+}
+
+.social {
+	margin-bottom: 60px;
+}
+
+#contact a {
+	margin: 10px;
+}
+
+@media(max-width: 767px){
+	#about img {
+		margin: 0 auto;
+	}
 }

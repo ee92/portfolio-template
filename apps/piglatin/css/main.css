@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+	background-color: pink;
+}
+textarea {
+	height: 100px;
+	width: 250px;
+}
+@media (max-width: 500px){
+	body{
+		max-width: 495px;
+	}
+	button {
+		background-color: #c9c9c9;
+	}
+}

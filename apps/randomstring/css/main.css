@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	background-color: #ffd696;
+}
+
+#output {
+	min-width: 250px;
+	min-height: 100px;
+}
+
+@media (max-width: 750px) {
+	body {
+		font-size: 1.5em;
+	}
+}

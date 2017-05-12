@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+<body ng-app="pascal">
+	<h2>Exponential Equation Calculator</h2>
+	<p>Input an exponent and press 'solve' to get the expanded form</p>
+	<div ng-controller="inputCtrl">
+		<form>
+			(x + y)<sup><input size="2" ng-model="power"></sup>
+			<button ng-click="pascal(power)">solve</button>
+		</form><br>
+		<div id="solution">
+			<p><span>{{solution}}</span></p>
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>
