@@ -8,7 +8,7 @@ step 2:
 take a screenshot of every project and save them in the img folder
 
 step 3:
-find a nice picture of yourself and save it in the img folder
+find a nice picture of yourself, crop it into a square (min size 250x250), and save it in the img folder
 
 step 4:
 in the about section, set img src to "img/yourPicture.jpg"
