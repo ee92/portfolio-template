@@ -3,7 +3,7 @@ window.onload = function() {
    // normal options
    selector: '.background',
    maxParticles: 125,
-   color:'#48F2E3',
+   color:'#48F2E3', // change color
    sizeVariations: 1,
    connectParticles: true,
    minDistance: 150,
