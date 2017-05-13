@@ -22,7 +22,7 @@ in the about section, find the resume link and set href to "yourResume.pdf"
 step 7:
 in the work section, for each project - set href to "projects/path/to/index.html",
 set img src to "img/projectScreenshot.png",
-in <h3></h3> add project name and in <h5></h5> list the technologies used
+in h3 add project name and in h5 list the technologies used
 
 step 8:
 in the social media section, set the first href to "mailto:yourEmailAddress@domain.com",
